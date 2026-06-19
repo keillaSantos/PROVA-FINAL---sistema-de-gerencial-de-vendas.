@@ -1,19 +1,12 @@
-import java.util.ArrayList;
+public class Main {
+    public static void main(String[] args) {
+        javax.swing.SwingUtilities.invokeLater(() -> {
 
-public class Biblioteca {
+            TelaBiblioteca tela =
+                    new TelaBiblioteca();
 
-    private ArrayList<Livro> livros;
+            tela.setVisible(true);
 
-    public Biblioteca() {
-        livros = new ArrayList<>();
-    }
-
-    public void adicionarLivro(Livro livro) {
-        livros.add(livro);
-    }
-
-    public ArrayList<Livro> getLivros() {
-        return livros;
+        });
     }
 }
-
