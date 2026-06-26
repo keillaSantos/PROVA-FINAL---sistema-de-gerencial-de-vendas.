@@ -7,3 +7,4 @@ public class Caixa {
         return valorPago - total;
     }
 }
+//

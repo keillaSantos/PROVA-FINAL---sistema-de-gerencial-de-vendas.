@@ -67,7 +67,7 @@ public class TelaHistorico extends JFrame {
             return;
         }
 
-        // Percorre a lista do banco e adiciona na tela.
+        // Percorre a lista do banco e adiciona na tela
         for (String venda : Banco.historicoVendas) {
             areaHistorico.append(venda + "\n");
         }

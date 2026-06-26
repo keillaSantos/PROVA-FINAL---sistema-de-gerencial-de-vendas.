@@ -7,7 +7,7 @@ public class TelaGerenciamento extends JFrame {
 
         // Criação da janela
         setTitle("Gerenciamento de Produtos");
-        setSize(650, 430); // 💡 Aumentei um pouquinho o tamanho para acomodar o novo botão
+        setSize(650, 430);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new BorderLayout(10, 10));

@@ -6,3 +6,4 @@ public class Banco {
     //criada para listar as vendas finalizadas.
     public static ArrayList<String> historicoVendas = new ArrayList<>();
 }
+//

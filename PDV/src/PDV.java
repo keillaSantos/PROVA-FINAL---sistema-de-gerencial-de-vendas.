@@ -31,7 +31,7 @@ public class PDV extends JFrame {
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
-        // Chama a configuração dos componentes e eventos
+        // Chama a configuração dos componentes e eventoS
         configurarComponentes();
         configurarEventos();
 
